@@ -1,0 +1,114 @@
+main img{
+    padding-top: 126px;
+}
+
+.mainContainer{
+    background: #F7F5FA;
+    margin-top: -99px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.textBlock{
+    border: 1px solid #EDEDED;
+    flex-basis: 486px;
+    background: $mainBackgroundColor;
+    height: 232px;
+}
+.mainText{
+    text-transform: uppercase;
+    padding-top: $mainPaddingTop;
+    font-family: $mainFont;
+    padding-left: $mainPadding;
+    color: $mainColor;
+    line-height: 19px;
+    letter-spacing: 0.04em;
+    font-weight: bold;
+    font-size:$mainTextFontSize;
+}
+.mainTextInfo{
+    padding-top: 12px;
+    font-family: $mainFont;
+    padding-left: $mainPadding;
+    font-size: $mainTextsFontSize;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    width: 356px;
+    max-height: 90px;
+}
+
+.aboutInfo{
+    margin-top: 80px;
+    height: 737px;
+}
+
+.mainContainerText{
+
+    padding-left: 23.20%;
+    padding-right: 23.20%; 
+}
+
+.aboutHeader{
+    padding-top: 80px;
+    font-family: DIN Pro;
+    font-size: 48px;
+    line-height: 60px;
+    /* identical to box height */
+
+    letter-spacing: -0.02em;
+}
+
+.aboutText{
+    font-family: Roboto;
+    font-size: $secondFontSize;
+    line-height: 26px;
+    color: $mainTextColor;
+    padding-top: $mainIndent;
+}
+
+.aboutCompany{
+    height: 654px;
+    background:  $aboutColor;
+}
+
+.aboutCompanyMainText{
+    padding-top: 120px;
+    font-family: DIN Pro;
+    font-size: $aboutMainFontSize;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+}
+
+.containerCompany{
+    padding-left: 9.4%;
+    display: flex;
+    padding-top: 60px; 
+}
+.row{
+    justify-content: flex-start;
+    flex-basis: 345px;
+   
+    hr{
+        margin-top: 22px;
+        border: 0px;
+        background: $mainColor;
+        height: 2px;
+        width: 24px;
+    }
+}
+
+.aboutHeaderText{
+    font-family: DIN Pro;
+    font-size: $aboutSize;
+    line-height: 25px;
+}
+
+.aboutmainText{
+    padding-top: 27px;
+    font-family: $secondFont;
+    font-size: $secondFontSize;
+    line-height: 26px;
+    color: $mainTextColor;
+}

@@ -2,10 +2,15 @@
 @import "utils/vars";
 @import "utils/mixins";
 @import "utils/fonts";
+@import "utils/reset.scss";
+
+body{
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden; 
+}
 
 
 
-
-
-
+@import "modules/footer.scss";
 @import "modules/wrapper.scss";
